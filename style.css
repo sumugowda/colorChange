@@ -1,0 +1,24 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    place-items: center;
+    display: grid;
+    height: 100vh;
+}
+.button button{
+  padding: 20px;
+  border: 1px solid;
+  font-weight: 900;
+  font-size: xx-large;
+  border-radius: 60px;
+  cursor: pointer;
+}
+.button button p{
+    font-size: small;
+    font-weight: 300;
+}
+.button button:hover{
+    background:transparent;
+}
